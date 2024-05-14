@@ -1,19 +1,33 @@
+body {
+    margin: auto;
+    background: #efefef;
+}
+
 header {
     text-align: center;
     font-size: 50px;
     background-color: #fff56d;
     padding-top: 2px;
     padding-bottom: 2px;
-    border-bottom: 20px solid rgb(165, 145, 34);
+    border-bottom: 20px solid rgb(196, 177, 68);
     font-family: sans-serif;
 }
-
-.intro-text {
-    font-size: 200%;
-    padding-right: 10px;
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 2px solid gray;
+    text-align: start;
+    padding: 10px 50px 10px 50px;
+    font-style: italic;
+    font-weight: 600;
 }
 
-.intro {
+.potato-text {
+    font-size: 200%;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 100px;
+}
+
+.potato-intro {
     height: 500px;
     padding: 8%
 }
@@ -21,4 +35,79 @@ header {
 .potato {
     outline: 5px solid black;
     float: right;
+} 
+
+.nav_bar {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border-bottom: 1px solid #000000;
+    border-left: 50px;
+    width: 90%;
+    padding: 0px 20px 0px 20px;
+    height: 64px;
+    margin-top: 30px;
+}
+.nav_bar ul {
+    padding: 0px;
+    list-style: none;
+}
+.nav_bar ul li {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.nav_bar ul li a {
+    text-decoration: none;
+    color: #000000;
+    background: #6db1e4;
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 23px 50px 22px 50px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topleft: 10px;
+    width: 75px;
+    display: block;
+    text-align: center;
+}
+.nav_bar ul li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background: #96e0e9;
+    -moz-transition: background-color 200ms ease-in;
+    -webkit-transition: background-color 200ms ease-in;
+    -ms-transition: background-color 200ms ease-in;
+    -o-transition: background-color 200ms ease-in;
+    transition: background-color 200ms ease-in;
+}
+.nav_bar ul li a#onlink {
+    background: #fff56d;
+    color: #000000;
+    border-bottom: 1px solid #fff56d;
+}
+.nav_bar ul li a#onlink:hover {
+    background: #fff56d;
+    color: #000000;
+}
+
+#intro-text {
+    font-size: 300%;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15% 20% 10% 20%;
+}
+#intro-text h1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#contact {
+    font-size: 600%;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 30% 20% 10% 20%;
 }
